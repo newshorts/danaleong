@@ -1,0 +1,42 @@
+.social {
+	padding-bottom: 15px;
+
+	.social-icon {
+		display: inline-block;
+		width: 44px;
+		height: 44px;
+		text-decoration: none;
+		margin: 0 8px;
+	}
+
+	.facebook {
+		background: url(../images/social-facebook.png) scroll no-repeat;
+		background-size: contain;
+		background-position: center;
+
+		&:hover {
+			background-image: url(../images/social-facebook.png);
+		}
+	}
+
+	.twitter {
+		background: url(../images/social-twitter.png) scroll no-repeat;
+		background-size: contain;
+		background-position: center;
+
+		&:hover {
+			background-image: url(../images/social-twitter.png);
+		}
+	}
+
+	.instagram {
+		background: url(../images/social-instagram.png) scroll no-repeat;
+		background-size: contain;
+		background-position: center;
+
+		&:hover {
+			background-image: url(../images/social-instagram.png);
+		}
+	}
+}
+

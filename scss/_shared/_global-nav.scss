@@ -1,0 +1,75 @@
+// global nav
+.section-global-nav {
+	@include breakpoint(small down) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		overflow: hidden;
+		max-height: $global-nav-height-small;
+		transition: max-height 1.5s ease-in-out;
+		z-index: 1;
+	}
+
+	&.expanded {
+		@include breakpoint(small down) {
+			max-height: 1000px;
+		}
+	}
+
+	.menu-icon {
+		display: block;
+		margin: 10px auto;
+	}
+
+	.global-nav {
+		display: flex;
+		justify-content: space-between;
+
+		.nav-item {
+			text-decoration: none;
+			color: #727272;
+			border-bottom: none;
+
+			&:hover {
+				color: $white;
+			}
+
+			&:last-of-type {
+				border-bottom: none;
+			}
+
+			@include breakpoint(small down) {
+				display: block;
+				text-align: center;
+				padding: 20px 0;
+				border-bottom: 1px solid grey;
+			}
+		}
+
+		@include breakpoint(small down) {
+			display: block;
+		}
+	}
+
+	.global-nav-viewport-emitter {
+		@include visually-hidden;
+
+		&:after {
+			@include breakpoint(small down) {
+				content: "small";
+			}
+
+			@include breakpoint(medium) {
+				content: "medium";
+			}
+			@include breakpoint(large) {
+				content: "large";
+			}
+
+			@include breakpoint(xlarge) {
+				content: "xlarge";
+			}
+		}
+	}
+}

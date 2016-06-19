@@ -1,0 +1,22 @@
+@import "settings";
+
+.page-overview {
+	background: white; // EXAMPLE: you could make the background of the page white
+	color: $black; // with black text
+
+	// EXAMPLE: override the default event tile styles for a white background
+	.orbit-slide {
+		.tile {
+			border: 1px solid $black;
+		}
+
+		.calendar {
+			background-color: $black;
+			color: $white;
+		}
+
+		.location {
+			color: $black;
+		}
+	}
+}
