@@ -4,13 +4,13 @@
 	<!--#include virtual="../includes/_shared/global-nav.inc" -->
 
 		<header class="page-image row">
-			<img class="columns large-12 header-title-image" data-interchange="[/images/tektonik_large.png, small], [/images/tektonik_large.png, medium], [/images/tektonik_large.png, large]">
+			<img class="columns large-12 header-title-image" data-interchange="[/images/oeo_logo_2x.png, small], [/images/oeo_logo.png, medium], [/images/oeo_logo.png, large]">
 		</header>
 
 		<section class="row hero">
 			<div class="columns large-12">
 				<div class="hero-content">
-					<iframe src="https://www.youtube.com/embed/wcDTtS2dgoc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/GSb07SnyAW0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 		</section>
@@ -19,26 +19,25 @@
 
 		<section class="row description">
 			<article class="summary columns large-12">
-				<p>Etsy messenger bag austin, freegan mustache kitsch gentrify yr gastropub franzen cornhole literally sriracha fashion axe four loko. Umami before they sold out 90's pabst, cold-pressed organic blue bottle gentrify semiotics distillery authentic tote bag vice. XOXO artisan distillery, health goth cray church-key cold-pressed lomo photo booth lumbersexual. Williamsburg humblebrag quinoa, meh semiotics kickstarter 8-bit pickled. Williamsburg cronut vinyl gentrify. Vinyl brooklyn fanny pack raw denim portland, readymade mixtape flannel gentrify polaroid iPhone. Gochujang ramps wolf lo-fi occupy messenger bag, lumbersexual irony pabst franzen jean shorts hammock poutine sustainable forage.</p>
-				<a class="description-toggle read-more">READ MORE</a>
+				<p>One sunny day on the planet Arcania, a much-unexpected bolt of lightning struck an orange tree in an orange grove.  From that very tree, grew a peculiar character, with long slinky arms, short stubby legs and one eye! Yes, one eye! He high tailed it to Earth and immediately made it his mission to absorb and interfere with all of the man made electronic music sounds. This is One Eyed Orange.</p>
+				<p>OEO is a collaborative multimedia EDM experience between Dana and visual artists/animators KALEIDA & Marton Gabor.</p>
+				<a class="description-toggle read-more"></a>
 			</article>
 
 			<article class="detail columns large-12">
-				<p>Etsy messenger bag austin, freegan mustache kitsch gentrify yr gastropub franzen cornhole literally sriracha fashion axe four loko. Umami before they sold out 90's pabst, cold-pressed organic blue bottle gentrify semiotics distillery authentic tote bag vice. XOXO artisan distillery, health goth cray church-key cold-pressed lomo photo booth lumbersexual. Williamsburg humblebrag quinoa, meh semiotics kickstarter 8-bit pickled. Williamsburg cronut vinyl gentrify. Vinyl brooklyn fanny pack raw denim portland, readymade mixtape flannel gentrify polaroid iPhone. Gochujang ramps wolf lo-fi occupy messenger bag, lumbersexual irony pabst franzen jean shorts hammock poutine sustainable forage.</p>
-				<p>Etsy messenger bag austin, freegan mustache kitsch gentrify yr gastropub franzen cornhole literally sriracha fashion axe four loko. Umami before they sold out 90's pabst, cold-pressed organic blue bottle gentrify semiotics distillery authentic tote bag vice. XOXO artisan distillery, health goth cray church-key cold-pressed lomo photo booth lumbersexual. Williamsburg humblebrag quinoa, meh semiotics kickstarter 8-bit pickled. Williamsburg cronut vinyl gentrify. Vinyl brooklyn fanny pack raw denim portland, readymade mixtape flannel gentrify polaroid iPhone. Gochujang ramps wolf lo-fi occupy messenger bag, lumbersexual irony pabst franzen jean shorts hammock poutine sustainable forage.</p>
-				<a class="description-toggle read-less">READ LESS</a>
+				<a class="description-toggle read-less"></a>
 			</article>
 		</section>
 
 		<section class="row other-videos">
 			<div class="large-4 medium-12 small-12 columns">
 				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/wcDTtS2dgoc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/B7sX32NOD3Y?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="large-4 medium-12 small-12 columns">
 				<div class="video-wrapper">
-					<iframe src="https://www.youtube.com/embed/wcDTtS2dgoc?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/LGfDGpTUx7k?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 				</div>
 			</div>
 			<div class="large-4 medium-12 small-12 columns">

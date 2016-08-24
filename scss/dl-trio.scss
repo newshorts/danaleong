@@ -1,7 +1,23 @@
 @import "settings";
 
 .page-dl-trio {
-	background: url(../images/tektonik_bg_large.jpg) fixed no-repeat;
+	background: url(../images/trio_bg.png) fixed no-repeat;
 	background-size: cover;
-	color: $white;
+	color: $black;
+
+	// EXAMPLE: override the default event tile styles for a white background
+	.orbit-slide {
+		.tile {
+			border: 1px solid $black;
+		}
+
+		.calendar {
+			background-color: $black;
+			color: $white;
+		}
+
+		.location {
+			color: $black;
+		}
+	}
 }

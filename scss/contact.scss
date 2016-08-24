@@ -1,7 +1,11 @@
 @import "settings";
 
 .page-contact {
-	background: url(../images/tektonik_bg_large.jpg) fixed no-repeat;
 	background-size: cover;
-	color: $white;
+	color: $black;
+
+	a:link {
+		color: $black;
+	a:visited {
+		color: $black;
 }
