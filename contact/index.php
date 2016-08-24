@@ -1,7 +1,7 @@
-<!--#include file="../includes/_shared/page-name.inc" -->
-<!--#include file="../includes/_shared/header.inc" -->
+<?php include "../includes/_shared/page-name.php" ?>
+<?php include "../includes/_shared/header.php" ?>
 
-	<!--#include file="../includes/_shared/global-nav.inc" -->
+	<?php include "../includes/_shared/global-nav.php" ?>
 
 		<header class="page-image row">
 			<img class="columns large-12 header-title-image" data-interchange="[/images/contact.png, small], [/images/contact.png, medium], [/images/contact.png, large]">
@@ -33,4 +33,4 @@
 		</section>
 
 
-<!--#include file="../includes/_shared/footer.inc" -->
+<?php include "../includes/_shared/footer.php" ?>

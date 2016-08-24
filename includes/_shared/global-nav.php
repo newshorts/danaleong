@@ -14,4 +14,4 @@
 	</div>
 </section>
 
-<main class="page page-<!--#echo var='PAGE_NAME'-->">
+<main class="page page-<?php echo $PAGE_NAME; ?>">

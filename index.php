@@ -1,7 +1,7 @@
-<!--#include file="includes/_shared/page-name.inc" -->
-<!--#include file="includes/_shared/header.inc" -->
+<?php include "includes/_shared/page-name.php" ?>
+<?php include "includes/_shared/header.php" ?>
 
-	<!--#include file="includes/_shared/global-nav.inc" -->
+	<?php include "includes/_shared/global-nav.php" ?>
 
 		<header class="page-image row">
 			<img class="columns large-12 header-title-image" data-interchange="[images/dl_logo.png, small], [images/dl_logo.png, medium], [images/dl_logo.png, large]">
@@ -15,7 +15,7 @@
 			</div>
 		</section>
 
-		<!--#include file="includes/_shared/upcoming-events.inc" -->
+		<?php include "includes/_shared/upcoming-events.php" ?>
 
 		<section class="row description">
 			<article class="summary columns large-12">
@@ -48,4 +48,4 @@
 			</div>
 		</section>
 
-<!--#include file="includes/_shared/footer.inc" -->
+<?php include "includes/_shared/footer.php" ?>
