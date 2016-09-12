@@ -4,7 +4,7 @@
 	<?php include "includes/_shared/global-nav.php" ?>
 
 		<header class="page-image row">
-			<img class="columns large-12 header-title-image" data-interchange="[<?php web_link('images/dl_logo.png'); ?>, small], [<?php web_link('images/dl_logo.png'); ?>, medium], [<?php web_link('images/dl_logo.png'); ?>, large]">
+			<img class="columns large-12 header-title-image" data-interchange="[<?php echo web_link('images/dl_logo.png'); ?>, small], [<?php echo web_link('images/dl_logo.png'); ?>, medium], [<?php echo web_link('images/dl_logo.png'); ?>, large]">
 		</header>
 
 		<section class="row hero">
