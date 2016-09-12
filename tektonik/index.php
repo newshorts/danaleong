@@ -4,7 +4,7 @@
 	<?php include "../includes/_shared/global-nav.php" ?>
 
 		<header class="page-image row">
-			<img class="columns large-12 header-title-image" data-interchange="[/images/tektonik_large.png, small], [/images/tektonik_large.png, medium], [/images/tektonik_large.png, large]">
+			<img class="columns large-12 header-title-image" data-interchange="[<?php echo web_link('images/tektonik_large.png'); ?>, small], [<?php echo web_link('images/tektonik_large.png'); ?>, medium], [<?php echo web_link('images/tektonik_large.png'); ?>, large]">
 		</header>
 
 		<section class="row hero">

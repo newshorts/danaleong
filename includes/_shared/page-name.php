@@ -1,38 +1,35 @@
 <?php
-	global $PAGE_NAME;
-	global $DS;
-	$PAGE_NAME = 'overview';
-	$DS = '';
+	include "config.php";
 
-	//echo "<pre>";
-	//var_dump($_SERVER['REQUEST_URI']);
+	global $PAGE_NAME;
+	global $DS, $ROOT, $INCLUDES, $SHARED;
+	$PAGE_NAME = 'overview';
+
+	$DS = DIRECTORY_SEPARATOR;
+	$ROOT = $_SERVER['DOCUMENT_ROOT'];
+	$CWD = getcwd();
+	$INCLUDES = $CWD . $DS . "includes" . $DS;
+	$SHARED = $INCLUDES . "_shared" . $DS;
 
 	$uri = getURI();
 
 	switch($uri) {
-		case '/':
+		case web_link(''):
 			$PAGE_NAME = 'overview';
-			$DS = '';
 			break;
-		case '/tektonik/':
+		case web_link('tektonik/'):
 			$PAGE_NAME = 'tektonik';
-			$DS = '../';
 			break;
-		case '/one-eyed-orange/':
+		case web_link('one-eyed-orange/'):
 			$PAGE_NAME = 'one-eyed-orange';
-			$DS = '../';
 			break;
-		case '/dl-trio/':
+		case web_link('dl-trio/'):
 			$PAGE_NAME = 'dl-trio';
-			$DS = '../';
 			break;
-		case '/contact/':
+		case web_link('contact/'):
 			$PAGE_NAME = 'contact';
-			$DS = '../';
 			break;
 	}
-
-	//echo $PAGE_NAME;
 
 	function getURI() {
 		if(isset($_SERVER["REQUEST_URI"])) {
@@ -42,6 +39,11 @@
 		} else {
 			return "/";
 		}
+	}
+
+	function web_link($uri) {
+		global $SUBDIR;
+		return $SUBDIR . $uri;
 	}
 ?>
 

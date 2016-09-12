@@ -15,15 +15,15 @@
 
 		</main>
 
-		<script src="<?php echo $DS; ?>bower_components/jquery/dist/jquery.js"></script>
-		<script src="<?php echo $DS; ?>bower_components/what-input/what-input.js"></script>
-		<script src="<?php echo $DS; ?>bower_components/foundation-sites/dist/foundation.js"></script>
-		<script src="<?php echo $DS; ?>bower_components/foundation-sites/dist/plugins/foundation.interchange.js"></script>
-		<script src="<?php echo $DS; ?>bower_components/foundation-sites/dist/plugins/foundation.orbit.js"></script>
-		<script src="<?php echo $DS; ?>bower_components/foundation-sites/dist/plugins/foundation.responsiveToggle.js"></script>
-		<script src="<?php echo $DS; ?>js/_shared/_polyfills.js"></script>
-		<script src="<?php echo $DS; ?>js/_shared/_viewport-emitter.js"></script>
-		<script src="<?php echo $DS; ?>js/_shared/_event-tiles.js"></script>
-		<script src="<?php echo $DS; ?>js/app.js"></script>
+		<script src="<?php echo web_link('bower_components/jquery/dist/jquery.js'); ?>"></script>
+		<script src="<?php echo web_link('bower_components/what-input/what-input.js'); ?>"></script>
+		<script src="<?php echo web_link('bower_components/foundation-sites/dist/foundation.js'); ?>"></script>
+		<script src="<?php echo web_link('bower_components/foundation-sites/dist/plugins/foundation.interchange.js'); ?>"></script>
+		<script src="<?php echo web_link('bower_components/foundation-sites/dist/plugins/foundation.orbit.js'); ?>"></script>
+		<script src="<?php echo web_link('bower_components/foundation-sites/dist/plugins/foundation.responsiveToggle.js'); ?>"></script>
+		<script src="<?php echo web_link('js/_shared/_polyfills.js'); ?>"></script>
+		<script src="<?php echo web_link('js/_shared/_viewport-emitter.js'); ?>"></script>
+		<script src="<?php echo web_link('js/_shared/_event-tiles.js'); ?>"></script>
+		<script src="<?php echo web_link('js/app.js'); ?>"></script>
 	</body>
 </html>
